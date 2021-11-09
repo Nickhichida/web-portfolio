@@ -178,6 +178,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 4em;
     
     .skills__container-title{
         display: flex;
@@ -243,7 +244,7 @@ body{
     align-items: center;
     margin-top: 1em;
     overflow: hidden;
-
+    padding-top: 4em;
     .portfolio__container-title{
         display: flex;
         width: 30%;
@@ -320,8 +321,8 @@ body{
             height: 4em;
             background-color: $colorSecondBackground;
             border: none;
-            border-radius: 0.4em;
-            box-shadow: 0.3em 0.4em 0.4em #d4d1d1;
+            border-radius: 0em;
+            box-shadow: none;
        
         }
         .container__contact-info{
