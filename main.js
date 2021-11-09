@@ -1,6 +1,6 @@
 let boton = document.querySelector("#boton");
 let menu = document.querySelector(".menu__container");
-let header = document.querySelector("-container__header");
+let header = document.querySelector(".container__header");
 
 boton.addEventListener("click", (e)=>{
     e.preventDefault();
